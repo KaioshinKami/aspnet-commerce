@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BookingService.API</name>
+    </assembly>
+    <members>
+        <member name="T:BookingService.API.Controllers.BookingsController">
+            <summary>Manages car rental bookings.</summary>
+        </member>
+        <member name="M:BookingService.API.Controllers.BookingsController.Create(BookingService.Application.DTOs.CreateBookingRequest)">
+            <summary>Create a new booking for a vehicle.</summary>
+            <param name="req">Booking details including vehicle ID, dates, and price per day.</param>
+        </member>
+        <member name="M:BookingService.API.Controllers.BookingsController.GetById(System.Guid)">
+            <summary>Get a booking by ID. Users can only see their own bookings.</summary>
+            <param name="id">Booking GUID.</param>
+        </member>
+        <member name="M:BookingService.API.Controllers.BookingsController.GetMyBookings">
+            <summary>Get all bookings for the current user.</summary>
+        </member>
+        <member name="M:BookingService.API.Controllers.BookingsController.GetAll">
+            <summary>Get all bookings. Requires Admin role.</summary>
+        </member>
+        <member name="M:BookingService.API.Controllers.BookingsController.Cancel(System.Guid,BookingService.Application.DTOs.CancelBookingRequest)">
+            <summary>Cancel a booking.</summary>
+            <param name="id">Booking GUID.</param>
+            <param name="req">Cancellation reason.</param>
+        </member>
+    </members>
+</doc>

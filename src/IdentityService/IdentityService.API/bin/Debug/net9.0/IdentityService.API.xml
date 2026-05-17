@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IdentityService.API</name>
+    </assembly>
+    <members>
+        <member name="T:IdentityService.API.Controllers.AuthController">
+            <summary>Handles user authentication and registration.</summary>
+        </member>
+        <member name="M:IdentityService.API.Controllers.AuthController.Register(IdentityService.Application.DTOs.RegisterRequest)">
+            <summary>Register a new user.</summary>
+            <param name="req">Registration details including email, password, and full name.</param>
+            <returns>JWT token and user info.</returns>
+        </member>
+        <member name="M:IdentityService.API.Controllers.AuthController.Login(IdentityService.Application.DTOs.LoginRequest)">
+            <summary>Login with email and password.</summary>
+            <param name="req">Login credentials.</param>
+            <returns>JWT token and user info.</returns>
+        </member>
+    </members>
+</doc>

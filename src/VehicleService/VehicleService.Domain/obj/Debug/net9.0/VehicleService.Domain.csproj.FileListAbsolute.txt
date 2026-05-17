@@ -1,0 +1,11 @@
+C:\Users\Alibi\Desktop\ASP.net\src\VehicleService\VehicleService.Domain\bin\Debug\net9.0\VehicleService.Domain.deps.json
+C:\Users\Alibi\Desktop\ASP.net\src\VehicleService\VehicleService.Domain\bin\Debug\net9.0\VehicleService.Domain.dll
+C:\Users\Alibi\Desktop\ASP.net\src\VehicleService\VehicleService.Domain\bin\Debug\net9.0\VehicleService.Domain.pdb
+C:\Users\Alibi\Desktop\ASP.net\src\VehicleService\VehicleService.Domain\obj\Debug\net9.0\VehicleService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alibi\Desktop\ASP.net\src\VehicleService\VehicleService.Domain\obj\Debug\net9.0\VehicleService.Domain.AssemblyInfoInputs.cache
+C:\Users\Alibi\Desktop\ASP.net\src\VehicleService\VehicleService.Domain\obj\Debug\net9.0\VehicleService.Domain.AssemblyInfo.cs
+C:\Users\Alibi\Desktop\ASP.net\src\VehicleService\VehicleService.Domain\obj\Debug\net9.0\VehicleService.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Alibi\Desktop\ASP.net\src\VehicleService\VehicleService.Domain\obj\Debug\net9.0\VehicleService.Domain.dll
+C:\Users\Alibi\Desktop\ASP.net\src\VehicleService\VehicleService.Domain\obj\Debug\net9.0\refint\VehicleService.Domain.dll
+C:\Users\Alibi\Desktop\ASP.net\src\VehicleService\VehicleService.Domain\obj\Debug\net9.0\VehicleService.Domain.pdb
+C:\Users\Alibi\Desktop\ASP.net\src\VehicleService\VehicleService.Domain\obj\Debug\net9.0\ref\VehicleService.Domain.dll

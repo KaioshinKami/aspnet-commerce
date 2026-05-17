@@ -1,0 +1,17 @@
+C:\Users\Alibi\Desktop\ASP.net\src\BookingService\BookingService.Application\bin\Debug\net10.0\BookingService.Application.deps.json
+C:\Users\Alibi\Desktop\ASP.net\src\BookingService\BookingService.Application\bin\Debug\net10.0\BookingService.Application.dll
+C:\Users\Alibi\Desktop\ASP.net\src\BookingService\BookingService.Application\bin\Debug\net10.0\BookingService.Application.pdb
+C:\Users\Alibi\Desktop\ASP.net\src\BookingService\BookingService.Application\bin\Debug\net10.0\BookingService.Domain.dll
+C:\Users\Alibi\Desktop\ASP.net\src\BookingService\BookingService.Application\bin\Debug\net10.0\Shared.Contracts.dll
+C:\Users\Alibi\Desktop\ASP.net\src\BookingService\BookingService.Application\bin\Debug\net10.0\BookingService.Domain.pdb
+C:\Users\Alibi\Desktop\ASP.net\src\BookingService\BookingService.Application\bin\Debug\net10.0\Shared.Contracts.pdb
+C:\Users\Alibi\Desktop\ASP.net\src\BookingService\BookingService.Application\obj\Debug\net10.0\BookingService.Application.csproj.AssemblyReference.cache
+C:\Users\Alibi\Desktop\ASP.net\src\BookingService\BookingService.Application\obj\Debug\net10.0\BookingService.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alibi\Desktop\ASP.net\src\BookingService\BookingService.Application\obj\Debug\net10.0\BookingService.Application.AssemblyInfoInputs.cache
+C:\Users\Alibi\Desktop\ASP.net\src\BookingService\BookingService.Application\obj\Debug\net10.0\BookingService.Application.AssemblyInfo.cs
+C:\Users\Alibi\Desktop\ASP.net\src\BookingService\BookingService.Application\obj\Debug\net10.0\BookingService.Application.csproj.CoreCompileInputs.cache
+C:\Users\Alibi\Desktop\ASP.net\src\BookingService\BookingService.Application\obj\Debug\net10.0\BookingS.9C323D69.Up2Date
+C:\Users\Alibi\Desktop\ASP.net\src\BookingService\BookingService.Application\obj\Debug\net10.0\BookingService.Application.dll
+C:\Users\Alibi\Desktop\ASP.net\src\BookingService\BookingService.Application\obj\Debug\net10.0\refint\BookingService.Application.dll
+C:\Users\Alibi\Desktop\ASP.net\src\BookingService\BookingService.Application\obj\Debug\net10.0\BookingService.Application.pdb
+C:\Users\Alibi\Desktop\ASP.net\src\BookingService\BookingService.Application\obj\Debug\net10.0\ref\BookingService.Application.dll

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VehicleService.API</name>
+    </assembly>
+    <members>
+        <member name="T:VehicleService.API.Controllers.VehiclesController">
+            <summary>Manages the vehicle catalog — CRUD and advanced filtering.</summary>
+        </member>
+        <member name="M:VehicleService.API.Controllers.VehiclesController.GetAll(System.String,System.String,System.String,System.Nullable{System.Decimal},System.Nullable{System.Decimal},System.Nullable{System.Int32},System.Nullable{System.Boolean},System.Nullable{System.Int32})">
+            <summary>Get all vehicles with optional filters.</summary>
+            <param name="brand">Filter by brand name (partial match).</param>
+            <param name="transmission">Automatic or Manual.</param>
+            <param name="fuelType">Petrol, Diesel, Electric, Hybrid.</param>
+            <param name="minPrice">Minimum price per day.</param>
+            <param name="maxPrice">Maximum price per day.</param>
+            <param name="minSeats">Minimum number of seats.</param>
+            <param name="isAvailable">Filter by availability.</param>
+            <param name="year">Filter by manufacture year.</param>
+        </member>
+        <member name="M:VehicleService.API.Controllers.VehiclesController.GetById(System.Guid)">
+            <summary>Get a vehicle by ID.</summary>
+            <param name="id">Vehicle GUID.</param>
+        </member>
+        <member name="M:VehicleService.API.Controllers.VehiclesController.Create(VehicleService.Application.DTOs.CreateVehicleRequest)">
+            <summary>Create a new vehicle. Requires Admin role.</summary>
+            <param name="req">Vehicle details.</param>
+        </member>
+        <member name="M:VehicleService.API.Controllers.VehiclesController.Update(System.Guid,VehicleService.Application.DTOs.UpdateVehicleRequest)">
+            <summary>Update an existing vehicle. Requires Admin role.</summary>
+            <param name="id">Vehicle GUID.</param>
+            <param name="req">Updated vehicle details.</param>
+        </member>
+        <member name="M:VehicleService.API.Controllers.VehiclesController.Delete(System.Guid)">
+            <summary>Delete a vehicle. Requires Admin role.</summary>
+            <param name="id">Vehicle GUID.</param>
+        </member>
+    </members>
+</doc>

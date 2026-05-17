@@ -1,0 +1,15 @@
+C:\Users\Alibi\Desktop\ASP.net\src\IdentityService\IdentityService.Application\bin\Debug\net9.0\IdentityService.Application.deps.json
+C:\Users\Alibi\Desktop\ASP.net\src\IdentityService\IdentityService.Application\bin\Debug\net9.0\IdentityService.Application.dll
+C:\Users\Alibi\Desktop\ASP.net\src\IdentityService\IdentityService.Application\bin\Debug\net9.0\IdentityService.Application.pdb
+C:\Users\Alibi\Desktop\ASP.net\src\IdentityService\IdentityService.Application\bin\Debug\net9.0\IdentityService.Domain.dll
+C:\Users\Alibi\Desktop\ASP.net\src\IdentityService\IdentityService.Application\bin\Debug\net9.0\IdentityService.Domain.pdb
+C:\Users\Alibi\Desktop\ASP.net\src\IdentityService\IdentityService.Application\obj\Debug\net9.0\IdentityService.Application.csproj.AssemblyReference.cache
+C:\Users\Alibi\Desktop\ASP.net\src\IdentityService\IdentityService.Application\obj\Debug\net9.0\IdentityService.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alibi\Desktop\ASP.net\src\IdentityService\IdentityService.Application\obj\Debug\net9.0\IdentityService.Application.AssemblyInfoInputs.cache
+C:\Users\Alibi\Desktop\ASP.net\src\IdentityService\IdentityService.Application\obj\Debug\net9.0\IdentityService.Application.AssemblyInfo.cs
+C:\Users\Alibi\Desktop\ASP.net\src\IdentityService\IdentityService.Application\obj\Debug\net9.0\IdentityService.Application.csproj.CoreCompileInputs.cache
+C:\Users\Alibi\Desktop\ASP.net\src\IdentityService\IdentityService.Application\obj\Debug\net9.0\Identity.52144512.Up2Date
+C:\Users\Alibi\Desktop\ASP.net\src\IdentityService\IdentityService.Application\obj\Debug\net9.0\IdentityService.Application.dll
+C:\Users\Alibi\Desktop\ASP.net\src\IdentityService\IdentityService.Application\obj\Debug\net9.0\refint\IdentityService.Application.dll
+C:\Users\Alibi\Desktop\ASP.net\src\IdentityService\IdentityService.Application\obj\Debug\net9.0\IdentityService.Application.pdb
+C:\Users\Alibi\Desktop\ASP.net\src\IdentityService\IdentityService.Application\obj\Debug\net9.0\ref\IdentityService.Application.dll

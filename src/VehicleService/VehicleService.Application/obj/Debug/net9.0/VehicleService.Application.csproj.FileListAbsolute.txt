@@ -1,0 +1,17 @@
+C:\Users\Alibi\Desktop\ASP.net\src\VehicleService\VehicleService.Application\bin\Debug\net9.0\VehicleService.Application.deps.json
+C:\Users\Alibi\Desktop\ASP.net\src\VehicleService\VehicleService.Application\bin\Debug\net9.0\VehicleService.Application.dll
+C:\Users\Alibi\Desktop\ASP.net\src\VehicleService\VehicleService.Application\bin\Debug\net9.0\VehicleService.Application.pdb
+C:\Users\Alibi\Desktop\ASP.net\src\VehicleService\VehicleService.Application\bin\Debug\net9.0\Shared.Contracts.dll
+C:\Users\Alibi\Desktop\ASP.net\src\VehicleService\VehicleService.Application\bin\Debug\net9.0\VehicleService.Domain.dll
+C:\Users\Alibi\Desktop\ASP.net\src\VehicleService\VehicleService.Application\bin\Debug\net9.0\VehicleService.Domain.pdb
+C:\Users\Alibi\Desktop\ASP.net\src\VehicleService\VehicleService.Application\bin\Debug\net9.0\Shared.Contracts.pdb
+C:\Users\Alibi\Desktop\ASP.net\src\VehicleService\VehicleService.Application\obj\Debug\net9.0\VehicleService.Application.csproj.AssemblyReference.cache
+C:\Users\Alibi\Desktop\ASP.net\src\VehicleService\VehicleService.Application\obj\Debug\net9.0\VehicleService.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alibi\Desktop\ASP.net\src\VehicleService\VehicleService.Application\obj\Debug\net9.0\VehicleService.Application.AssemblyInfoInputs.cache
+C:\Users\Alibi\Desktop\ASP.net\src\VehicleService\VehicleService.Application\obj\Debug\net9.0\VehicleService.Application.AssemblyInfo.cs
+C:\Users\Alibi\Desktop\ASP.net\src\VehicleService\VehicleService.Application\obj\Debug\net9.0\VehicleService.Application.csproj.CoreCompileInputs.cache
+C:\Users\Alibi\Desktop\ASP.net\src\VehicleService\VehicleService.Application\obj\Debug\net9.0\VehicleS.851A58E3.Up2Date
+C:\Users\Alibi\Desktop\ASP.net\src\VehicleService\VehicleService.Application\obj\Debug\net9.0\VehicleService.Application.dll
+C:\Users\Alibi\Desktop\ASP.net\src\VehicleService\VehicleService.Application\obj\Debug\net9.0\refint\VehicleService.Application.dll
+C:\Users\Alibi\Desktop\ASP.net\src\VehicleService\VehicleService.Application\obj\Debug\net9.0\VehicleService.Application.pdb
+C:\Users\Alibi\Desktop\ASP.net\src\VehicleService\VehicleService.Application\obj\Debug\net9.0\ref\VehicleService.Application.dll

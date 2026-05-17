@@ -1,0 +1,29 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/ApiGateway/ApiGateway.csproj" />
+    <Project Path="src/Shared.Contracts/Shared.Contracts.csproj" />
+  </Folder>
+  <Folder Name="/src/BookingService/">
+    <Project Path="src/BookingService/BookingService.API/BookingService.API.csproj" />
+    <Project Path="src/BookingService/BookingService.Application/BookingService.Application.csproj" />
+    <Project Path="src/BookingService/BookingService.Domain/BookingService.Domain.csproj" />
+    <Project Path="src/BookingService/BookingService.Infrastructure/BookingService.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/IdentityService/">
+    <Project Path="src/IdentityService/IdentityService.API/IdentityService.API.csproj" />
+    <Project Path="src/IdentityService/IdentityService.Application/IdentityService.Application.csproj" />
+    <Project Path="src/IdentityService/IdentityService.Domain/IdentityService.Domain.csproj" />
+    <Project Path="src/IdentityService/IdentityService.Infrastructure/IdentityService.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/VehicleService/">
+    <Project Path="src/VehicleService/VehicleService.API/VehicleService.API.csproj" />
+    <Project Path="src/VehicleService/VehicleService.Application/VehicleService.Application.csproj" />
+    <Project Path="src/VehicleService/VehicleService.Domain/VehicleService.Domain.csproj" />
+    <Project Path="src/VehicleService/VehicleService.Infrastructure/VehicleService.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/BookingService.Tests/BookingService.Tests.csproj" />
+    <Project Path="tests/IdentityService.Tests/IdentityService.Tests.csproj" />
+    <Project Path="tests/VehicleService.Tests/VehicleService.Tests.csproj" />
+  </Folder>
+</Solution>

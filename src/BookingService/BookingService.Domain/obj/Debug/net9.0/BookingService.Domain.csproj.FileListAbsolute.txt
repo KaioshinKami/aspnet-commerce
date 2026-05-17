@@ -1,0 +1,11 @@
+C:\Users\Alibi\Desktop\ASP.net\src\BookingService\BookingService.Domain\bin\Debug\net9.0\BookingService.Domain.deps.json
+C:\Users\Alibi\Desktop\ASP.net\src\BookingService\BookingService.Domain\bin\Debug\net9.0\BookingService.Domain.dll
+C:\Users\Alibi\Desktop\ASP.net\src\BookingService\BookingService.Domain\bin\Debug\net9.0\BookingService.Domain.pdb
+C:\Users\Alibi\Desktop\ASP.net\src\BookingService\BookingService.Domain\obj\Debug\net9.0\BookingService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alibi\Desktop\ASP.net\src\BookingService\BookingService.Domain\obj\Debug\net9.0\BookingService.Domain.AssemblyInfoInputs.cache
+C:\Users\Alibi\Desktop\ASP.net\src\BookingService\BookingService.Domain\obj\Debug\net9.0\BookingService.Domain.AssemblyInfo.cs
+C:\Users\Alibi\Desktop\ASP.net\src\BookingService\BookingService.Domain\obj\Debug\net9.0\BookingService.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Alibi\Desktop\ASP.net\src\BookingService\BookingService.Domain\obj\Debug\net9.0\BookingService.Domain.dll
+C:\Users\Alibi\Desktop\ASP.net\src\BookingService\BookingService.Domain\obj\Debug\net9.0\refint\BookingService.Domain.dll
+C:\Users\Alibi\Desktop\ASP.net\src\BookingService\BookingService.Domain\obj\Debug\net9.0\BookingService.Domain.pdb
+C:\Users\Alibi\Desktop\ASP.net\src\BookingService\BookingService.Domain\obj\Debug\net9.0\ref\BookingService.Domain.dll
