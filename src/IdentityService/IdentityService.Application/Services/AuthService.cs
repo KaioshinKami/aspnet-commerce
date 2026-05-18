@@ -27,14 +27,33 @@ public class AuthService
         if (await _users.ExistsAsync(req.Email))
             throw new InvalidOperationException("Email already registered.");
 
-        // Only allow Admin role if explicitly set (could add admin-key check here)
-        var role = req.Role == "Admin" ? "Admin" : "User";
+        var user = new AppUser
+        {
+            Email = req.Email,
+            FullName = req.FullName,
+            Role = "User",
+            PasswordHash = BCrypt.Net.BCrypt.HashPassword(req.Password)
+        };
+
+        await _users.AddAsync(user);
+        return new AuthResponse(GenerateToken(user), user.Email, user.Role, user.Id);
+    }
+
+    /// <summary>Registers a new Admin. Requires a secret key.</summary>
+    public async Task<AuthResponse> RegisterAdminAsync(CreateAdminRequest req)
+    {
+        var adminKey = _config["AdminSecretKey"] ?? "CarRentalAdmin2024!";
+        if (req.AdminSecretKey != adminKey)
+            throw new UnauthorizedAccessException("Invalid admin secret key.");
+
+        if (await _users.ExistsAsync(req.Email))
+            throw new InvalidOperationException("Email already registered.");
 
         var user = new AppUser
         {
             Email = req.Email,
             FullName = req.FullName,
-            Role = role,
+            Role = "Admin",
             PasswordHash = BCrypt.Net.BCrypt.HashPassword(req.Password)
         };
 

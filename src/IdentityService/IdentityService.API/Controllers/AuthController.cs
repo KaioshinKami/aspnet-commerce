@@ -12,9 +12,8 @@ public class AuthController : ControllerBase
     private readonly AuthService _authService;
     public AuthController(AuthService authService) => _authService = authService;
 
-    /// <summary>Register a new user.</summary>
-    /// <param name="req">Registration details including email, password, and full name.</param>
-    /// <returns>JWT token and user info.</returns>
+    /// <summary>Register a new user with User role.</summary>
+    /// <param name="req">Registration details: email, password, full name.</param>
     [HttpPost("register")]
     [ProducesResponseType(typeof(AuthResponse), StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
@@ -31,9 +30,31 @@ public class AuthController : ControllerBase
         }
     }
 
+    /// <summary>Register a new Admin. Requires admin secret key.</summary>
+    /// <param name="req">Registration details + AdminSecretKey.</param>
+    [HttpPost("register-admin")]
+    [ProducesResponseType(typeof(AuthResponse), StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    [ProducesResponseType(StatusCodes.Status401Unauthorized)]
+    public async Task<IActionResult> RegisterAdmin([FromBody] CreateAdminRequest req)
+    {
+        try
+        {
+            var result = await _authService.RegisterAdminAsync(req);
+            return Ok(result);
+        }
+        catch (UnauthorizedAccessException ex)
+        {
+            return Unauthorized(new { error = ex.Message });
+        }
+        catch (InvalidOperationException ex)
+        {
+            return BadRequest(new { error = ex.Message });
+        }
+    }
+
     /// <summary>Login with email and password.</summary>
     /// <param name="req">Login credentials.</param>
-    /// <returns>JWT token and user info.</returns>
     [HttpPost("login")]
     [ProducesResponseType(typeof(AuthResponse), StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status401Unauthorized)]
